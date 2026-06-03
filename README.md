@@ -2,6 +2,8 @@
 
 [![Clojars Project](https://img.shields.io/clojars/v/net.clojars.klaupacius/canlii-api-client.svg)](https://clojars.org/net.clojars.klaupacius/canlii-api-client)
 
+[![cljdoc badge](https://cljdoc.org/badge/net.clojars.klaupacius/canlii-api-client)](https://cljdoc.org/d/net.clojars.klaupacius/canlii-api-client)
+
 A small Clojure client for the [CanLII REST API](https://github.com/canlii/API_documentation) —
 read-only access to Canadian court decisions and legislation.
 
