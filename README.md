@@ -1,6 +1,6 @@
 # canlii-api-client
 
-[![Clojars Project](https://img.shields.io/clojars/v/net.clojars.klaupacius/canlii-api-client.svg?include_prereleases)](https://clojars.org/net.clojars.klaupacius/canlii-api-client)
+[![Clojars Project](https://img.shields.io/clojars/v/net.clojars.klaupacius/canlii-api-client.svg)](https://clojars.org/net.clojars.klaupacius/canlii-api-client)
 
 A small Clojure client for the [CanLII REST API](https://github.com/canlii/API_documentation) —
 read-only access to Canadian court decisions and legislation.
@@ -15,17 +15,14 @@ Available on [Clojars](https://clojars.org/net.clojars.klaupacius/canlii-api-cli
 deps.edn:
 
 ```clojure
-net.clojars.klaupacius/canlii-api-client {:mvn/version "0.1.0-SNAPSHOT"}
+net.clojars.klaupacius/canlii-api-client {:mvn/version "0.1.0"}
 ```
 
 Leiningen/Boot:
 
 ```clojure
-[net.clojars.klaupacius/canlii-api-client "0.1.0-SNAPSHOT"]
+[net.clojars.klaupacius/canlii-api-client "0.1.0"]
 ```
-
-This is a SNAPSHOT release; to pick up newer builds, refresh dependencies (for
-example `clojure -X:deps prep` or `lein deps`).
 
 ## Usage
 
