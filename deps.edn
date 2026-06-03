@@ -1,0 +1,13 @@
+{:paths ["src" "resources"]
+ :deps  {org.clojure/clojure                 {:mvn/version "1.12.5"}
+         camel-snake-kebab/camel-snake-kebab {:mvn/version "0.4.3"}
+         cheshire/cheshire                   {:mvn/version "6.2.0"}
+         hato/hato                           {:mvn/version "1.0.0"}}
+ :aliases
+ {:test
+  {:extra-paths ["test"]
+   :extra-deps  {lambdaisland/kaocha {:mvn/version "1.91.1392"}}
+   :main-opts   ["-m" "kaocha.runner"]
+   :build       {:deps       {io.github.clojure/tools.build {:mvn/version "0.10.14"}
+                              slipset/deps-deploy           {:mvn/version "0.2.5"}}
+                 :ns-default build}}}}
